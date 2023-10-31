@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
 .iniciar{
     background-color: green;
 }
@@ -8,7 +9,9 @@
     background-color: skyblue;
 }
 button{
-    width: 10vw;
-    height: 3vh;
+    width: 80px;
+    height: 30px;
     border: none;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }

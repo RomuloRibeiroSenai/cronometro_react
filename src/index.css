@@ -13,6 +13,17 @@ code {
 }
 .botoes{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 3vh;
+  gap: 20px;
+}
+h1{
+  font-size: 40px;
+  color: green;
+  text-align: center;
+}
+.borda{
+  background-color: rgb(70, 69, 69);
+  padding: 10%;
+  width: 50vw;
 }

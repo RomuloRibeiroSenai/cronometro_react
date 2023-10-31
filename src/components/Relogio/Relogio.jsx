@@ -6,8 +6,8 @@ function Relogio(props) {
     return (
 
         <section>
-            <div>{props.minutos} :</div>
-            <div className='seg'>{props.segundos} :</div>
+            <div className='mili'>{props.minutos}:</div>
+            <div className='seg'>{props.segundos}:</div>
             <div className='mili'>{props.mili}</div>
         </section>
     );
